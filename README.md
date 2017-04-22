@@ -1,6 +1,6 @@
 # npmtest-webpack-node-externals
 
-#### basic test coverage for  [webpack-node-externals (v1.5.4)](https://github.com/liady/webpack-node-externals)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-node-externals.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-node-externals) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-node-externals.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-node-externals)
+#### basic test-coverage for  [webpack-node-externals (v1.5.4)](https://github.com/liady/webpack-node-externals)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-node-externals.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-node-externals) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-node-externals.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-node-externals)
 
 #### Easily exclude node_modules in Webpack bundle
 
@@ -35,15 +35,15 @@
 ```json
 
 {
-    "name": "webpack-node-externals",
-    "version": "1.5.4",
-    "description": "Easily exclude node_modules in Webpack bundle",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/liady/webpack-node-externals.git"
+    "author": {
+        "name": "Liad Yosef",
+        "url": "https://github.com/liady"
+    },
+    "bugs": {
+        "url": "https://github.com/liady/webpack-node-externals/issues"
     },
     "dependencies": {},
+    "description": "Easily exclude node_modules in Webpack bundle",
     "devDependencies": {
         "chai": "^3.5.0",
         "mocha": "^2.5.3",
@@ -51,11 +51,18 @@
         "ncp": "^2.0.0",
         "webpack": "^1.13.1"
     },
-    "scripts": {
-        "unit": "mocha --colors ./test/*.spec.js",
-        "unit-watch": "mocha --colors -w ./test/*.spec.js",
-        "test": "npm run unit-watch"
+    "directories": {},
+    "dist": {
+        "shasum": "ea05ba17108a23e776c35c42e7bb0e86c225be00",
+        "tarball": "https://registry.npmjs.org/webpack-node-externals/-/webpack-node-externals-1.5.4.tgz"
     },
+    "files": [
+        "LICENSE",
+        "README.md",
+        "index.js"
+    ],
+    "gitHead": "5c030f3351b921efaeabff9312f82dd9a8344308",
+    "homepage": "https://github.com/liady/webpack-node-externals",
     "keywords": [
         "webpack",
         "node_modules",
@@ -63,20 +70,26 @@
         "bundle",
         "externals"
     ],
-    "author": {
-        "name": "Liad Yosef",
-        "url": "https://github.com/liady"
-    },
-    "files": [
-        "LICENSE",
-        "README.md",
-        "index.js"
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "liady"
+        }
     ],
-    "bugs": {
-        "url": "https://github.com/liady/webpack-node-externals/issues"
+    "name": "webpack-node-externals",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/liady/webpack-node-externals.git"
     },
-    "homepage": "https://github.com/liady/webpack-node-externals",
-    "license": "MIT"
+    "scripts": {
+        "test": "npm run unit-watch",
+        "unit": "mocha --colors ./test/*.spec.js",
+        "unit-watch": "mocha --colors -w ./test/*.spec.js"
+    },
+    "version": "1.5.4",
+    "bin": {}
 }
 ```
 
